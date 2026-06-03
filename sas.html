@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Attendance System</title>
+
+
+    <link rel="stylesheet" href="gist.css">
+</head>
+<body>
+
+   <div class="top">
+        <img src="logo.jpeg" class="logo">
+        <h2 class="college">
+            New Prince Shri Bhavani College of Engineering and Technology
+        </h2>
+
+        <div class=divider</div>
+            
+        <h1>Smart Attendance System</h1>
+    </div>
+
+  
+    <div id="studentSection">
+        <h2>Student</h2>
+
+        <input
+            type="text" 
+            id="studentName" 
+            placeholder="Enter your name">
+
+        <br><br>
+
+        <button onclick="studentLogin()">Login</button>
+        <button onclick="markPresent()">I'm Present</button>
+    </div>
+
+    <hr>
+
+ 
+    <div id="teacherSection">
+        <h2>Teacher</h2>
+
+        <button onclick="getReport()">Get Report</button>
+
+        <div id="report" style="margin-top:10px;"></div>
+    </div>
+
+       <script src="script.js"></script>
+
+</body>
+</html>

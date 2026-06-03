@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* ---------- TOP SECTION ---------- */
+
+.top {
+    margin-top: 35px;
+}
+
+.logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.college {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.divider {
+    width: 260px;
+    height: 3px;
+    background-color: #3498db;
+    margin: 18px auto;
+}
+
+.project-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+/* ---------- CARD SECTIONS ---------- */
+
+#studentSection,
+#teacherSection {
+    background-color: white;
+    max-width: 420px;
+    margin: 30px auto;
+    padding: 30px 25px;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* ---------- INPUT ---------- */
+
+input {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+}
+
+/* ---------- BUTTONS ---------- */
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #2c80b4;
+}
+
+/* ---------- REPORT ---------- */
+
+#report {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
