@@ -23,6 +23,8 @@ app.post("/mark", (req, res) => {
         ip.includes("192.168") ||
         ip.includes("10.") ||
         ip.includes("172.")
+        ip.includes("127.0.0.1")
+        ip.includes("::1")
     ) {
         attendance[name] = "Present";
         res.send({ status: "allowed" });
